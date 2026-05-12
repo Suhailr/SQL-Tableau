@@ -14,10 +14,6 @@ Geographic distribution of delayed shipments <br>
 
 This dashboard helps stakeholders monitor operational efficiency, identify shipping bottlenecks, and improve logistics decision-making.
 
-## 📊 Dashboard Preview
-
-<img src="Images/dashboard.png" alt="Amazon Shipping Analytics Dashboard" width="1000">
-
 ## 🚀 Features
 - 📦 Order shipment tracking
 - 📈 Shipping trend analysis
