@@ -16,7 +16,7 @@ This dashboard helps stakeholders monitor operational efficiency, identify shipp
 
 ## 📊 Dashboard Preview
 
-![Amazon Shipping Analytics Dashboard](Images/dashboard.png)
+<img src="Images/dashboard.png" alt="Amazon Shipping Analytics Dashboard" width="1000">
 
 ## 🚀 Features
 - 📦 Order shipment tracking
