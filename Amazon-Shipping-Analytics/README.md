@@ -16,7 +16,7 @@ This dashboard helps stakeholders monitor operational efficiency, identify shipp
 
 ## 📊 Dashboard Preview
 
-(Add your dashboard screenshot here)
+![Dashboard Preview](Images/dashboard.png)
 
 ## 🚀 Features
 - 📦 Order shipment tracking
