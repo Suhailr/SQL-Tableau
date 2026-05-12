@@ -1,49 +1,29 @@
-# SQL Data Analysis Portfolio Project
+# 📊 SQL Data Analysis Portfolio Project
+## 🧾 Overview
 
-This project is based on the YouTube tutorial  
-🎥 [SQL Data Analyst Portfolio Project | Like I Do in My Real Projects](https://www.youtube.com/watch?v=2jGhQpbzHes)
+This project is a real-world SQL data analytics simulation inspired by industry-style reporting workflows. It demonstrates how raw sales data can be transformed into actionable business insights using SQL.
 
-It simulates a real-world SQL data analysis scenario, covering different types of analysis and reporting.
+The project covers multiple analytical dimensions such as time trends, performance tracking, segmentation, and contribution analysis.
 
----
+## 🎯 Objectives
 
-## 📌 Objectives
+This project demonstrates how to:
 
-The project demonstrates how to:
+- Analyze business performance over time 📈
+- Build cumulative and trend-based metrics 📊
+- Evaluate product and customer performance 🚀
+- Perform segmentation and part-to-whole analysis 🧩
+- Create reusable SQL reporting views for BI dashboards 📋
 
-- Analyze data over time
-- Perform cumulative and performance analysis
-- Execute part-to-whole and segmentation analysis
-- Generate actionable insights through SQL reports
+## 🧱 Data Model
 
----
+The project follows a star-schema-like structure:
 
-## 🔍 Analysis Types
-
-- 📈 **Changes Over Time**
-- 📊 **Cumulative Analysis**
-- 🚀 **Performance Analysis**
-- 🧩 **Part-to-Whole Analysis**
-- 🔍 **Data Segmentation**
-
----
-
-## 📋 Final Deliverables
-
-Two comprehensive reports saved as **SQL views**:
-
-- **Customer Report** → `08_customer_report.sql`
-- **Product Report** → `09_report_customers_view.sql`
-
----
-
-## 🛠️ SQL Techniques Used
-
-- Basic SQL: `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `ORDER BY`
-- Intermediate: `CASE WHEN`, `JOINS`
-- Advanced: `Window Functions`, `CTEs`, `Subqueries`
-
----
+### 📌 Fact Table
+- gold.fact_sales → transactional sales data
+### 📌 Dimension Tables
+- gold.report_customers → customer attributes
+- gold.report_products → product attributes
 
 ## 📂 Files
 
@@ -71,15 +51,67 @@ Two comprehensive reports saved as **SQL views**:
 | `gold.report_customers.csv`   | Dimension table for customer information |
 | `gold.report_products.csv`    | Dimension table for product information  |
 
----
 
-## 💬 Feedback
+  
+## 🛠️ SQL Techniques Used
+🟢 Basic SQL 
+- SELECT, FROM, WHERE 
+- GROUP BY, ORDER BY 
+🟡 Intermediate SQL 
+- JOIN operations 
+- CASE WHEN logic 
+- Aggregations 
+🔴 Advanced SQL 
+- Window Functions (OVER, PARTITION BY) 
+- Common Table Expressions (CTEs) 
+- Subqueries 
+- Running totals & ranking logic 
 
-If you have suggestions for improvements or feedback, feel free to connect on [LinkedIn](https://www.linkedin.com/in/mi7773).
+The project produces two main analytical reporting views:
 
----
+### 👤 Customer Report
+- Customer-level revenue analysis
+- Behavior segmentation
+- Contribution insights
+### 📦 Product Report
+- Product performance tracking
+- Revenue contribution
+- Sales trends per product
+  
+## ⚙️ Tech Stack
+SQL (PostgreSQL / MySQL compatible) <br>
+Window Functions <br>
+CTEs (Common Table Expressions) <br>
+Data Modeling (Star Schema) <br>
+Analytical SQL Techniques
 
-## 📎 Credits
+## 💡 Key Learning Outcomes
 
-Inspired by the tutorial:
-[SQL Data Analyst Portfolio Project | Like I Do in My Real Projects](https://www.youtube.com/watch?v=2jGhQpbzHes)
+By working on this project, you will learn:
+
+How real-world SQL reporting systems are built <br>
+How to structure analytical datasets for BI tools <br>
+How to write scalable and reusable SQL queries <br>
+How to derive business insights from raw transactional data <br>
+
+## 📌 Project Inspiration
+
+This project is inspired by the YouTube tutorial: SQL Data Analyst Portfolio Project 
+
+## 🧑‍💻 Author
+Mohamed Suhal Mohamad Haniff | Data Analytics Enthusiast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
